@@ -1,6 +1,6 @@
 {
-  "name": "angular-websocket",
-  "version": "2.0.1",
+  "name": "kotterAngularWebsocket",
+  "version": "3.0.0",
   "main": "./dist/angular-websocket.js",
   "description": "An Angular WebSocket service for connecting client applications to servers.",
   "homepage": "https://github.com/keithgallant/angular-websocket",
