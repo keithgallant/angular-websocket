@@ -1,3 +1,7 @@
+## 2.0.2 (2017-3-23)
+Features: 
+  - Add ability to pass close code (1000) to the dataStream.close call
+
 ## 2.0.0 (2016-5-21)
 
 Features:

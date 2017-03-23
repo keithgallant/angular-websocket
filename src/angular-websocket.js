@@ -259,9 +259,9 @@ function $WebSocketProvider($rootScope, $q, $timeout, $websocketBackend) {
 
   };
 
-  $WebSocket.prototype.close = function close(force) {
+  $WebSocket.prototype.close = function close(force, code) {
     if (force || !this.socket.bufferedAmount) {
-      this.socket.close();
+      this.socket.close(code);
     }
     return this;
   };

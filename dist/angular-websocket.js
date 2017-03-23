@@ -25,12 +25,6 @@
     };
   }
 
-  var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj;
-  };
-
   var Socket;
 
   if (typeof window === 'undefined') {
@@ -281,9 +275,9 @@
       }
     };
 
-    $WebSocket.prototype.close = function close(force) {
+    $WebSocket.prototype.close = function close(force, code) {
       if (force || !this.socket.bufferedAmount) {
-        this.socket.close();
+        this.socket.close(code);
       }
       return this;
     };
