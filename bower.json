@@ -1,8 +1,8 @@
 {
   "name": "angular-websocket",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/gdi2290/angular-websocket",
-  "description": "An AngularJS 1.x WebSocket service for connecting client applications to servers.",
+  "description": "An AngularJS 1.x WebSocket service for connecting client applications to servers. ",
   "keywords": [
     "angular",
     "angularjs",
